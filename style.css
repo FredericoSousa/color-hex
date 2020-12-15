@@ -1,0 +1,62 @@
+.result {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.result > button {
+  flex: 1;
+  flex-shrink: 0;
+  flex-grow: 1;
+  font-size: 5em;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+header > h1 {
+  font-size: 5em;
+}
+
+.toast-container {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 1.5rem;
+}
+
+.red > input::-webkit-slider-thumb {
+  background: red;
+}
+.red > input::-moz-range-thumb {
+  background: red;
+}
+.red > input::-ms-thumb {
+  background: red;
+}
+
+.green > input::-webkit-slider-thumb {
+  background: green;
+}
+.green > input::-moz-range-thumb {
+  background: green;
+}
+.green > input::-ms-thumb {
+  background: green;
+}
+
+.blue > input::-webkit-slider-thumb {
+  background: blue;
+}
+.blue > input::-moz-range-thumb {
+  background: blue;
+}
+.blue > input::-ms-thumb {
+  background: blue;
+}
